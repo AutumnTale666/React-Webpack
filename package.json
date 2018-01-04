@@ -1,0 +1,24 @@
+{
+  "name": "handlebars",
+  "version": "0.1.0",
+  "description": "- 预编译 html 模板需求， webpack 一切皆可打包。",
+  "main": "index.js",
+  "scripts": {
+     "dev": "webpack",
+     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "miaomiaoXiong <1920459934@qq.com> (https://github.com/AutumnTale666/miaomaioxiong.github.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "handlebars": "^4.0.11",
+    "handlebars-loader": "^1.6.0",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
